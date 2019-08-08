@@ -1,0 +1,9 @@
+WIth lodash less than 4.17.13, you can do this:
+
+CVE-2019-10744 More information
+high severity
+Vulnerable versions: < 4.17.13
+Patched version: 4.17.13
+Affected versions of lodash are vulnerable to Prototype Pollution.
+The function defaultsDeep could be tricked into adding or modifying properties of Object.prototype using a constructor payload.
+
